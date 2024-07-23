@@ -18,3 +18,18 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1894-merge-strings-alternately](https://github.com/hleesa/leetcode/tree/master/1894-merge-strings-alternately) |
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [1741-sort-array-by-increasing-frequency](https://github.com/hleesa/leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
+## Hash Table
+|  |
+| ------- |
+| [1741-sort-array-by-increasing-frequency](https://github.com/hleesa/leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
+## Sorting
+|  |
+| ------- |
+| [1741-sort-array-by-increasing-frequency](https://github.com/hleesa/leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
+<!---LeetCode Topics End-->
