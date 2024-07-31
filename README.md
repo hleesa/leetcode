@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [1196-filling-bookcase-shelves](https://github.com/hleesa/leetcode/tree/master/1196-filling-bookcase-shelves) |
 | [1511-count-number-of-teams](https://github.com/hleesa/leetcode/tree/master/1511-count-number-of-teams) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/hleesa/leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
 ## Hash Table
@@ -36,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [1196-filling-bookcase-shelves](https://github.com/hleesa/leetcode/tree/master/1196-filling-bookcase-shelves) |
 | [1511-count-number-of-teams](https://github.com/hleesa/leetcode/tree/master/1511-count-number-of-teams) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/hleesa/leetcode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 ## Binary Indexed Tree
