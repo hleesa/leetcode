@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1196-filling-bookcase-shelves](https://github.com/hleesa/leetcode/tree/master/1196-filling-bookcase-shelves) |
 | [1511-count-number-of-teams](https://github.com/hleesa/leetcode/tree/master/1511-count-number-of-teams) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/hleesa/leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
+| [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/hleesa/leetcode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2727-number-of-senior-citizens](https://github.com/hleesa/leetcode/tree/master/2727-number-of-senior-citizens) |
 ## Hash Table
 |  |
@@ -54,4 +55,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/hleesa/leetcode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+## Sliding Window
+|  |
+| ------- |
+| [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/hleesa/leetcode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 <!---LeetCode Topics End-->
