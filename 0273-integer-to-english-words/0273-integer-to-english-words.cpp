@@ -70,7 +70,6 @@ private:
             }
             word += zeroToNinetyNine(num % H);
         }
-        cout << word << '\n';
         return word;
     }
 };
