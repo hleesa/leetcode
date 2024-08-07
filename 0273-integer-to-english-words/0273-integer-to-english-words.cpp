@@ -5,26 +5,18 @@ public:
         const int G = 1000000000;
         const int M = 1000000;
         const int K = 1000;
-        if (num / G){
-            words = threeDigit(num / G) + " " + hundredBillion[3];
-        }
-        if (num % G / M){
-            if(!words.empty()){
-                words += " ";
+        vector<int> nums = {num / G, num % G / M, num % M / K, num % K};
+
+        for(int i = 0; i < nums.size(); ++i){
+            if(nums[i]){
+                if (!words.empty()){
+                    words += " ";
+                }
+                words += threeDigit(nums[i]);
+                if (i + 1< nums.size()){
+                    words +=  " " + hundredBillion[i]; 
+                }
             }
-            words += threeDigit(num % G / M) + " " + hundredBillion[2];
-        }
-        if (num % M / K){
-            if(!words.empty()){
-                words += " ";
-            }
-            words += threeDigit(num % M / K) + " " + hundredBillion[1];
-        }
-        if (num % K) {
-            if(!words.empty()){
-                words += " ";
-            }
-            words += threeDigit(num % K);
         }
         if (words.empty()){
             words = "Zero";
@@ -33,7 +25,7 @@ public:
     };
 
 private:
-    const vector<string> hundredBillion = {"Hundred", "Thousand", "Million", "Billion"};
+    const vector<string> hundredBillion = {"Billion", "Million", "Thousand", "Hundred"};
 
     const vector<string> thirtyNinety = {
         "", "Ten", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"};
@@ -62,7 +54,7 @@ private:
         const int H = 100;
 
         if (num / H){
-            word += zeroTwenty[num / H] + " " + hundredBillion[0];
+            word += zeroTwenty[num / H] + " " + hundredBillion[3];
         }
         if (num % H){
             if (!word.empty()){
