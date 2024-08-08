@@ -42,7 +42,6 @@ private:
                             return;
                         }
                     }
-                    cout << row << ", " << col << "\n";
                     row += deltaPos[dir][0];
                     col += deltaPos[dir][1];
                 }
