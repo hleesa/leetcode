@@ -5,7 +5,6 @@ public:
         int numMagicSquare = 0;
         for(int y = 0; y + size < grid.size(); ++y){
             for(int x = 0; x + size < grid[y].size(); ++x){
-                cout << y << ", " << x << "\n";
                 if (magicSquare(grid, y, x)){
                     ++numMagicSquare;
                 }
