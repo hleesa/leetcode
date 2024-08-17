@@ -1,25 +1,16 @@
 class Solution {
 public:
     int maxDistance(vector<vector<int>>& arrays) {
-        multiset<int> ms;
-        for(const auto& array : arrays){
-            ms.insert(array.begin(), array.end());
+        int ans = 0;
+        int minVal = arrays.front().front();
+        int maxVal = arrays.front().back();
+
+        for(int i=1; i < arrays.size(); ++i){
+            ans = max({arrays[i].back() - minVal, maxVal - arrays[i].front(), ans});
+            minVal = min(arrays[i].front(), minVal);
+            maxVal = max(arrays[i].back(), maxVal);
         }
 
-        int maxdiff = 0;
-        for(const auto& array : arrays){
-            for(auto n : array){
-                auto it = ms.find(n);
-                ms.erase(it);
-            }
-            if (!ms.empty()){
-                maxdiff = max({abs(*ms.rbegin() - array.front()), abs(array.back() - *ms.begin()), maxdiff});
-            }
-            for(auto n : array){
-                ms.insert(n);
-            }
-        }
-
-        return maxdiff;
+        return ans;
     }
 };
