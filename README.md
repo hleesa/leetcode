@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0921-spiral-matrix-iii](https://github.com/hleesa/leetcode/tree/master/0921-spiral-matrix-iii) |
 | [0999-regions-cut-by-slashes](https://github.com/hleesa/leetcode/tree/master/0999-regions-cut-by-slashes) |
 | [1196-filling-bookcase-shelves](https://github.com/hleesa/leetcode/tree/master/1196-filling-bookcase-shelves) |
+| [1240-stone-game-ii](https://github.com/hleesa/leetcode/tree/master/1240-stone-game-ii) |
 | [1511-count-number-of-teams](https://github.com/hleesa/leetcode/tree/master/1511-count-number-of-teams) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/hleesa/leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/hleesa/leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -64,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0264-ugly-number-ii](https://github.com/hleesa/leetcode/tree/master/0264-ugly-number-ii) |
 | [0650-2-keys-keyboard](https://github.com/hleesa/leetcode/tree/master/0650-2-keys-keyboard) |
 | [1196-filling-bookcase-shelves](https://github.com/hleesa/leetcode/tree/master/1196-filling-bookcase-shelves) |
+| [1240-stone-game-ii](https://github.com/hleesa/leetcode/tree/master/1240-stone-game-ii) |
 | [1511-count-number-of-teams](https://github.com/hleesa/leetcode/tree/master/1511-count-number-of-teams) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/hleesa/leetcode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/hleesa/leetcode/tree/master/2067-maximum-number-of-points-with-cost) |
@@ -115,6 +117,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0273-integer-to-english-words](https://github.com/hleesa/leetcode/tree/master/0273-integer-to-english-words) |
 | [0650-2-keys-keyboard](https://github.com/hleesa/leetcode/tree/master/0650-2-keys-keyboard) |
 | [0870-magic-squares-in-grid](https://github.com/hleesa/leetcode/tree/master/0870-magic-squares-in-grid) |
+| [1240-stone-game-ii](https://github.com/hleesa/leetcode/tree/master/1240-stone-game-ii) |
 ## Recursion
 |  |
 | ------- |
@@ -177,4 +180,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0040-combination-sum-ii](https://github.com/hleesa/leetcode/tree/master/0040-combination-sum-ii) |
+## Prefix Sum
+|  |
+| ------- |
+| [1240-stone-game-ii](https://github.com/hleesa/leetcode/tree/master/1240-stone-game-ii) |
+## Game Theory
+|  |
+| ------- |
+| [1240-stone-game-ii](https://github.com/hleesa/leetcode/tree/master/1240-stone-game-ii) |
 <!---LeetCode Topics End-->
