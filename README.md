@@ -91,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/hleesa/leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0776-n-ary-tree-postorder-traversal](https://github.com/hleesa/leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/hleesa/leetcode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 ## Sliding Window
 |  |
@@ -148,6 +149,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/hleesa/leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0776-n-ary-tree-postorder-traversal](https://github.com/hleesa/leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0999-regions-cut-by-slashes](https://github.com/hleesa/leetcode/tree/master/0999-regions-cut-by-slashes) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/hleesa/leetcode/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 ## Breadth-First Search
@@ -167,6 +169,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/hleesa/leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0776-n-ary-tree-postorder-traversal](https://github.com/hleesa/leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/hleesa/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Design
 |  |
