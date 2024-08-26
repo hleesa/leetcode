@@ -24,12 +24,12 @@ public:
         if(root == nullptr){
             return vector<int>();
         }
+        vector<int> ret;
         for(const auto& child : root->children){
-            postorder(child);
+            vector<int> children = postorder(child);
+            ret.insert(ret.end(), children.begin(), children.end());
         }
-        ans.push_back(root->val);
-        return ans;
+        ret.push_back(root->val);
+        return ret;
     }
-private:
-    vector<int> ans;
 };
