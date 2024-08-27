@@ -18,6 +18,11 @@ public:
             double prob; int edge; 
             tie(prob,edge) = pq.top();
             pq.pop();
+
+            if (prob < probability[edge]){
+                continue;
+            }
+
             for(const auto& next : adj[edge]){
                 double nextProb = prob * next.second;
                 int nextEdge = next.first;
