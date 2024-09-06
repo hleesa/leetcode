@@ -12,21 +12,24 @@ class Solution {
 public:
     ListNode* modifiedList(vector<int>& nums, ListNode* head) {
         set<int> delNum(nums.begin(), nums.end());
+        while (head != nullptr && delNum.contains(head->val)){
+            head = head->next;
+        }
+        if(head == nullptr){
+            return nullptr;
+        }
+
         ListNode* cur = head;
-        ListNode* ret = nullptr;
-        ListNode** retback = &ret;
-        while(cur){
-            if (delNum.find(cur->val) == delNum.end()){
-                *retback = new ListNode(cur->val);
-                retback = &(*retback)->next;
-                cur = cur->next;
-            }
-            else{
-                ListNode* delNode = cur;
-                cur = cur->next;
+        while(cur->next != nullptr){
+            if(delNum.contains(cur->next->val)){
+                ListNode* delNode = cur->next;
+                cur->next = cur->next->next;
                 delete (delNode);
             }
+            else{
+                cur = cur->next;
+            }
         }
-        return ret;
+        return head;
     }
 };
