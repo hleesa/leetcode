@@ -4,11 +4,16 @@ public:
         string str;
         for(auto ch : s){
             if (!isalpha(ch) && !isdigit(ch)) continue;
-            str += tolower(ch);
+            str.push_back(tolower(ch));
         }
-        int n = str.size();
-        string back = str.substr(n/2);
-        reverse(back.begin(), back.end());
-        return str.substr(0, n/2 + n%2) == back;
+        int begin = 0, end = str.size() - 1;
+        while(begin < end){
+            if(str[begin] != str[end]){
+                return false;
+            }
+            ++begin;
+            --end;
+        }
+        return true;
     }
 };
