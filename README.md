@@ -90,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0013-roman-to-integer](https://github.com/hleesa/leetcode/tree/master/0013-roman-to-integer) |
 | [0058-length-of-last-word](https://github.com/hleesa/leetcode/tree/master/0058-length-of-last-word) |
+| [0125-valid-palindrome](https://github.com/hleesa/leetcode/tree/master/0125-valid-palindrome) |
 | [0273-integer-to-english-words](https://github.com/hleesa/leetcode/tree/master/0273-integer-to-english-words) |
 | [0564-find-the-closest-palindrome](https://github.com/hleesa/leetcode/tree/master/0564-find-the-closest-palindrome) |
 | [0592-fraction-addition-and-subtraction](https://github.com/hleesa/leetcode/tree/master/0592-fraction-addition-and-subtraction) |
@@ -112,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/hleesa/leetcode/tree/master/0125-valid-palindrome) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/hleesa/leetcode/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/hleesa/leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 ## Binary Search
