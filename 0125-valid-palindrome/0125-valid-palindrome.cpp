@@ -3,7 +3,7 @@ public:
     bool isPalindrome(string s) {
         string str;
         for(auto ch : s){
-            if (!isalpha(ch) && !isdigit(ch)) continue;
+            if (!isalnum(ch)) continue;
             str.push_back(tolower(ch));
         }
         int begin = 0, end = str.size() - 1;
