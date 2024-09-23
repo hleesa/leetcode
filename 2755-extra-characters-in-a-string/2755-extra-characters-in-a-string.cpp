@@ -9,8 +9,10 @@ public:
             dp[i+1] = min(dp[i+1], dp[i] + 1);
 
             for(const string& dict : dictionary){
-                if(i + dict.length() <= n && s.substr(i, dict.length()) == dict){
-                    dp[i + dict.length()] = min(dp[i + dict.length()], dp[i]);
+                const int dictLen = dict.length();
+                if (i + dictLen > n) continue;
+                if (s.substr(i, dictLen) == dict){
+                    dp[i + dictLen] = min(dp[i + dictLen], dp[i]);
                 }
             }
         }
