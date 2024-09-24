@@ -16,7 +16,7 @@ public:
     }
 
     struct TrieNode {
-        TrieNode* children[10];  // 0부터 9까지 숫자 자리를 저장할 수 있음
+        TrieNode* children[10];
         TrieNode() {
             for (int i = 0; i < 10; i++) {
                 children[i] = nullptr;
