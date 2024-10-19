@@ -1,18 +1,22 @@
 class Solution {
 public:
     char findKthBit(int n, int k) {
-        string s = "0";
-        for(int i = 0; i < n; ++i){
-            s = s + "1" + reverse(s);
+        if(n == 1){
+            return '0';
         }
-        return s[k-1];
-    }
-private:
-    string reverse(string s){
-        for(int i = 0; i < s.length(); ++i){
-            s[i] = (s[i] - '0' ^ 1)  + '0';
+
+        int mid = (1 << (n-1));
+
+        if (k == mid){
+            return '1';
         }
-        ::reverse(s.begin(), s.end());
-        return s;
+        else if (k < mid){
+            return findKthBit(n-1 ,k);
+        }
+        else{
+            int mirroredIndex = 2 * mid - k;
+            char mirroredBit = findKthBit(n-1, mirroredIndex);
+            return mirroredBit == '0' ? '1' : '0';
+        }
     }
 };
