@@ -1,22 +1,23 @@
 class Solution {
 public:
     int maxUniqueSplit(string s) {
-        return countMaxSplit(s, set<string>());
+        set<string> seen;
+        return backtrack(s, 0, seen);
     }
 private:
-    int countMaxSplit(string s, set<string> subStr){
-        if(s.empty()){
-            return subStr.size();
+    int backtrack(const string& s, int begin, set<string>& seen){
+        if (begin == s.length()){
+            return 0;
         }
-        int count = 0;
-        for(int i = 1; i <= s.length(); ++i){
-            string sub = s.substr(0, i);
-            if (subStr.contains(sub)) continue;
-            subStr.insert(sub);
-            string nextSub = i < s.length() ? s.substr(i,s.length() - i) : "" ;
-            count = max(count, countMaxSplit(nextSub, subStr));
-            subStr.erase(sub);
+        string current;
+        int maxCount = 0;
+        for(int i = begin; i < s.length(); ++i){
+            current += s[i];
+            if (seen.contains(current)) continue;
+            seen.insert(current);
+            maxCount = max(1 + backtrack(s, i + 1, seen), maxCount);
+            seen.erase(current);
         }
-        return count;
+        return maxCount;
     }
 };
