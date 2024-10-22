@@ -12,7 +12,7 @@
 class Solution {
 public:
     long long kthLargestLevelSum(TreeNode* root, int k) {
-        map<int, long long> levelToSum;
+        unordered_map<int, long long> levelToSum;
         traverse(root, levelToSum, 1);
         vector<long long> sums;
         for(auto it : levelToSum){
@@ -25,7 +25,7 @@ public:
         return sums[sums.size() - k];
     }
 private:
-    void traverse(TreeNode* root, map<int, long long>& levelToSum, int level){
+    void traverse(TreeNode* root, unordered_map<int, long long>& levelToSum, int level){
         if(root == nullptr){
             return;
         }
