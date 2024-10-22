@@ -12,25 +12,27 @@
 class Solution {
 public:
     long long kthLargestLevelSum(TreeNode* root, int k) {
-        unordered_map<int, long long> levelToSum;
-        traverse(root, levelToSum, 1);
-        vector<long long> sums;
-        for(auto it : levelToSum){
-            sums.push_back(it.second);
+        priority_queue<long long> pq;
+        queue<TreeNode*> q;
+        q.push(root);
+        while(!q.empty()){
+            long long sum = 0;
+            long long size = q.size();
+            for(long long i = 0; i < size; ++i){
+                TreeNode* cur = q.front();
+                q.pop();
+                sum += cur->val;
+                if(cur->left) q.push(cur->left);
+                if(cur->right) q.push(cur->right);
+            }
+            pq.push(sum);
         }
-        if (k > sums.size()){
+        if (k > pq.size()){
             return -1;
         }
-        sort(sums.begin(), sums.end());
-        return sums[sums.size() - k];
-    }
-private:
-    void traverse(TreeNode* root, unordered_map<int, long long>& levelToSum, int level){
-        if(root == nullptr){
-            return;
+        for(int i = 1; i < k; ++i){
+            pq.pop();
         }
-        levelToSum[level] += root->val;
-        traverse(root->left, levelToSum, level+1);
-        traverse(root->right, levelToSum, level+1);
+        return pq.top();
     }
 };
