@@ -11,12 +11,10 @@ public:
         for(int x = 0; x < XMX; ++x){
             if(matrix[0][x] == 1) dp[0][x] = 1;
         }
-        for(int y = 0 ; y < YMX; ++y){
-            for(int x = 0; x < XMX; ++x){
+        for(int y = 1; y < YMX; ++y){
+            for(int x = 1; x < XMX; ++x){
                 if(matrix[y][x] == 1){
-                    if(y - 1 >= 0 && x - 1 >=0){
-                        dp[y][x] += min({dp[y-1][x-1], dp[y-1][x], dp[y][x-1]}) + 1;
-                    }
+                    dp[y][x] += min({dp[y-1][x-1], dp[y-1][x], dp[y][x-1]}) + 1;
                 }
             }
         }
