@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0719-find-k-th-smallest-pair-distance](https://github.com/hleesa/leetcode/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/hleesa/leetcode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/hleesa/leetcode/tree/master/0731-my-calendar-ii) |
+| [0792-binary-search](https://github.com/hleesa/leetcode/tree/master/0792-binary-search) |
 | [0859-design-circular-deque](https://github.com/hleesa/leetcode/tree/master/0859-design-circular-deque) |
 | [0870-magic-squares-in-grid](https://github.com/hleesa/leetcode/tree/master/0870-magic-squares-in-grid) |
 | [0890-lemonade-change](https://github.com/hleesa/leetcode/tree/master/0890-lemonade-change) |
@@ -223,6 +224,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0719-find-k-th-smallest-pair-distance](https://github.com/hleesa/leetcode/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/hleesa/leetcode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/hleesa/leetcode/tree/master/0731-my-calendar-ii) |
+| [0792-binary-search](https://github.com/hleesa/leetcode/tree/master/0792-binary-search) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/hleesa/leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/hleesa/leetcode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/hleesa/leetcode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
