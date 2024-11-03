@@ -84,6 +84,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/hleesa/leetcode/tree/master/0013-roman-to-integer) |
+| [0242-valid-anagram](https://github.com/hleesa/leetcode/tree/master/0242-valid-anagram) |
 | [0264-ugly-number-ii](https://github.com/hleesa/leetcode/tree/master/0264-ugly-number-ii) |
 | [0432-all-oone-data-structure](https://github.com/hleesa/leetcode/tree/master/0432-all-oone-data-structure) |
 | [0567-permutation-in-string](https://github.com/hleesa/leetcode/tree/master/0567-permutation-in-string) |
@@ -114,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0179-largest-number](https://github.com/hleesa/leetcode/tree/master/0179-largest-number) |
+| [0242-valid-anagram](https://github.com/hleesa/leetcode/tree/master/0242-valid-anagram) |
 | [0539-minimum-time-difference](https://github.com/hleesa/leetcode/tree/master/0539-minimum-time-difference) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/hleesa/leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/hleesa/leetcode/tree/master/0719-find-k-th-smallest-pair-distance) |
@@ -158,6 +160,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0179-largest-number](https://github.com/hleesa/leetcode/tree/master/0179-largest-number) |
 | [0214-shortest-palindrome](https://github.com/hleesa/leetcode/tree/master/0214-shortest-palindrome) |
 | [0241-different-ways-to-add-parentheses](https://github.com/hleesa/leetcode/tree/master/0241-different-ways-to-add-parentheses) |
+| [0242-valid-anagram](https://github.com/hleesa/leetcode/tree/master/0242-valid-anagram) |
 | [0273-integer-to-english-words](https://github.com/hleesa/leetcode/tree/master/0273-integer-to-english-words) |
 | [0539-minimum-time-difference](https://github.com/hleesa/leetcode/tree/master/0539-minimum-time-difference) |
 | [0564-find-the-closest-palindrome](https://github.com/hleesa/leetcode/tree/master/0564-find-the-closest-palindrome) |
