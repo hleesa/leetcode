@@ -3,7 +3,6 @@ public:
     int minChanges(string s) {
         const int n = s.length();
         int ans = 0;
-        int idx[2] = {-1,-1};
         for(int i = 0; i < n;){
             int j = i + 1;
             while(j < n && s[j] == s[i]){
