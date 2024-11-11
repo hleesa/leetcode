@@ -1,18 +1,15 @@
 class Solution {
 public:
     bool primeSubOperation(vector<int>& nums) {
-        if(nums.size() == 1){
-            return true;
-        }
         getPrime();
         nums[0] = getNum(nums[0], 0);
         for(int i = 1; i < nums.size(); ++i){
-            if(sasc(nums)){
-                return true;
-            }
             nums[i] = getNum(nums[i], nums[i-1]);
+            if (nums[i] <= nums[i-1]){
+                return false;
+            }
         }
-        return false;
+        return true;
     }
 
 private:
@@ -39,14 +36,5 @@ private:
             }
         }
         return num;
-    }
-
-    bool sasc(const vector<int>& nums){
-        for(int i = 0; i + 1 < nums.size(); ++i){
-            if(nums[i] >= nums[i+1]){
-                return false;
-            }
-        }
-        return true;
     }
 };
