@@ -6,11 +6,10 @@ public:
         while(l < r){
             int mid = l + (r-l) / 2;
             int num = 0;
-            if (mid != 0){
-                for(int i = 0; i < quantities.size(); ++i){
-                    num += (quantities[i] + mid - 1) / mid;
-                }
+            for(int i = 0; i < quantities.size(); ++i){
+                num += (quantities[i] + mid - 1) / mid;
             }
+   
             if(num > n){
                 l = mid + 1;
             }
