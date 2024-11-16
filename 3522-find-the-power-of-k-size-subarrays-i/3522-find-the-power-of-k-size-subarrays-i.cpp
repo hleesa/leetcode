@@ -4,17 +4,16 @@ public:
         const int n = nums.size();
         vector<int> ans;
         for(int i = 0; i + k - 1 < n; ++i){
-            vector<int> sub (nums.begin() + i, nums.begin() + i + k);
-            int power = asc(sub) ? sub.back() : - 1;
+            int power = asc(nums, i, k) ? nums[i+k-1] : - 1;
             ans.push_back(power);
         }
         return ans;
     }
 
 private:
-    bool asc(const vector<int>& nums){
-        for(int i = 0; i + 1 < nums.size(); ++i){
-            if(nums[i+1] - nums[i] != 1 ){
+    bool asc(const vector<int>& nums, int s, int k){
+        for(int i = 0; i + 1 < k; ++i){
+            if(nums[s+i+1] - nums[s] != i + 1 ){
                 return false;
             }
         }
