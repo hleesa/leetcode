@@ -13,14 +13,14 @@ public:
             }
         }
         long long ans = 0;
-        for (int i = k -1; i< nums.size(); ++i) {
+        for (int i = k - 1; i < nums.size(); ++i) {
             int num = nums[i];
             sum += num;
             ++counter[num];
             if (counter[num] > 1) {
                 ++dup;
             }
-            if (dup == 0 && sum > ans) {
+            else if (dup == 0 && sum > ans) {
                 ans = sum;
             }
             int prev = nums[i - k + 1];
