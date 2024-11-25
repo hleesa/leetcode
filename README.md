@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0729-my-calendar-i](https://github.com/hleesa/leetcode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/hleesa/leetcode/tree/master/0731-my-calendar-ii) |
 | [0733-flood-fill](https://github.com/hleesa/leetcode/tree/master/0733-flood-fill) |
+| [0787-sliding-puzzle](https://github.com/hleesa/leetcode/tree/master/0787-sliding-puzzle) |
 | [0792-binary-search](https://github.com/hleesa/leetcode/tree/master/0792-binary-search) |
 | [0859-design-circular-deque](https://github.com/hleesa/leetcode/tree/master/0859-design-circular-deque) |
 | [0870-magic-squares-in-grid](https://github.com/hleesa/leetcode/tree/master/0870-magic-squares-in-grid) |
@@ -334,6 +335,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0733-flood-fill](https://github.com/hleesa/leetcode/tree/master/0733-flood-fill) |
+| [0787-sliding-puzzle](https://github.com/hleesa/leetcode/tree/master/0787-sliding-puzzle) |
 | [0870-magic-squares-in-grid](https://github.com/hleesa/leetcode/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/hleesa/leetcode/tree/master/0921-spiral-matrix-iii) |
 | [0999-regions-cut-by-slashes](https://github.com/hleesa/leetcode/tree/master/0999-regions-cut-by-slashes) |
@@ -383,6 +385,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0226-invert-binary-tree](https://github.com/hleesa/leetcode/tree/master/0226-invert-binary-tree) |
 | [0733-flood-fill](https://github.com/hleesa/leetcode/tree/master/0733-flood-fill) |
+| [0787-sliding-puzzle](https://github.com/hleesa/leetcode/tree/master/0787-sliding-puzzle) |
 | [0999-regions-cut-by-slashes](https://github.com/hleesa/leetcode/tree/master/0999-regions-cut-by-slashes) |
 | [1484-linked-list-in-binary-tree](https://github.com/hleesa/leetcode/tree/master/1484-linked-list-in-binary-tree) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/hleesa/leetcode/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
