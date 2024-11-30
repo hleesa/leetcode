@@ -383,6 +383,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1484-linked-list-in-binary-tree](https://github.com/hleesa/leetcode/tree/master/1484-linked-list-in-binary-tree) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/hleesa/leetcode/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2035-count-sub-islands](https://github.com/hleesa/leetcode/tree/master/2035-count-sub-islands) |
+| [2201-valid-arrangement-of-pairs](https://github.com/hleesa/leetcode/tree/master/2201-valid-arrangement-of-pairs) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/hleesa/leetcode/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/hleesa/leetcode/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Breadth-First Search
@@ -509,6 +510,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/hleesa/leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1325-path-with-maximum-probability](https://github.com/hleesa/leetcode/tree/master/1325-path-with-maximum-probability) |
+| [2201-valid-arrangement-of-pairs](https://github.com/hleesa/leetcode/tree/master/2201-valid-arrangement-of-pairs) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/hleesa/leetcode/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/hleesa/leetcode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2803-modify-graph-edge-weights](https://github.com/hleesa/leetcode/tree/master/2803-modify-graph-edge-weights) |
@@ -598,4 +600,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/hleesa/leetcode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+## Eulerian Circuit
+|  |
+| ------- |
+| [2201-valid-arrangement-of-pairs](https://github.com/hleesa/leetcode/tree/master/2201-valid-arrangement-of-pairs) |
 <!---LeetCode Topics End-->
