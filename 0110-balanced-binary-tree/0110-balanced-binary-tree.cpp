@@ -17,14 +17,11 @@ public:
 
 private:
     int height(TreeNode* root){
-        if (root == nullptr) return 0;
+        if(root == nullptr) return 0;
 
         int leftHeight = height(root->left);
-        if(leftHeight == -1) return -1;
-
         int rightHeight = height(root->right);
-        if(rightHeight == -1) return -1;
-
+        if(leftHeight == -1 || rightHeight == -1) return -1;
         if(abs(leftHeight - rightHeight) > 1) return -1;
 
         return max(leftHeight, rightHeight) + 1;
