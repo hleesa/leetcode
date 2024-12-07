@@ -3,6 +3,7 @@ public:
     int minimumSize(vector<int>& nums, int maxOperations) {
         int l = 1, r = 1e9 + 1;
         int ans = r;
+        
         while(l < r){
             int target = l + (r-l) / 2;
             
@@ -16,7 +17,7 @@ public:
         }
         return ans;
     }
-    
+
 private:
     bool divide(const vector<int>& nums, int maxOperations, int target){
         int size = 0;
