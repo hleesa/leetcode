@@ -1,30 +1,16 @@
 class Solution {
 public:
     vector<bool> isArraySpecial(vector<int>& nums, vector<vector<int>>& queries) {
-        vector<vector<int>> special;
         const int n = nums.size();
-        for(int i = 0; i < n; ++i){
-            int j = i;
-            while(j + 1 < n && nums[i] % 2 == abs(nums[j + 1] % 2 - (j + 1 - i) % 2)) ++j;
-            special.push_back({i,j});
-            i = j;
+        vector<int> prefix(n, 0);
+        prefix[0] = 0;
+        for(int i = 1; i < n; ++i){
+            prefix[i] = prefix[i-1] + (nums[i-1] % 2 == nums[i] % 2);
         }
-
+        
         vector<bool> ans;
-        for(const auto& q : queries){
-            int l = 0, r = special.size();
-            int candi = r;
-            while(l < r){
-                int mid = l + (r-l)/2;
-                if(special[mid].front() <= q.front()){
-                    candi = mid;
-                    l = mid + 1;
-                }
-                else{
-                    r = mid;
-                }
-            }
-            ans.push_back(q.back() <=special[candi].back());
+        for(const auto& q: queries){
+            ans.push_back(prefix[q.front()] == prefix[q.back()]);
         }
 
         return ans;
