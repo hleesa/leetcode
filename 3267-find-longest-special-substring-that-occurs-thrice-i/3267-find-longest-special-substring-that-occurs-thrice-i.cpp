@@ -12,15 +12,11 @@ public:
 
         int ans = -1;
         for(int ch = 0; ch < 26; ++ch){
-            priority_queue<int> pq;
-            for(int i = 0; i < n; ++i){
-                pq.push(dp[ch][i]);
-            }
-            pq.pop(); pq.pop();
-            if (pq.top() == 0) continue;
-            ans = max(pq.top(), ans);
+            sort(dp[ch].begin(), dp[ch].end());
+            if(dp[ch][n-3] == 0) continue;
+            ans = max(dp[ch][n-3], ans);
         }
-        
+
         return ans;
     }
 };
