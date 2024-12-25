@@ -12,23 +12,22 @@
 class Solution {
 public:
     vector<int> largestValues(TreeNode* root) {
-        map<int, int> levelToMaxValue;
-        search(root, levelToMaxValue, 0);
         vector<int> ans;
-        for(const auto& it : levelToMaxValue){
-            ans.push_back(it.second);
-        }
+        search(root, ans, 0);
         return ans;
     }
 private:
-    void search(TreeNode* root, map<int, int>& levelToMaxValue, int row){
+    void search(TreeNode* root, vector<int>& ans, int row){
         if(root == nullptr){
             return;
         }
-        if (levelToMaxValue.find(row) == levelToMaxValue.end() || root->val > levelToMaxValue[row]){
-            levelToMaxValue[row] = root->val;
+        if (ans.size() == row){
+            ans.push_back(root->val);
         }
-        search(root->left, levelToMaxValue, row + 1);
-        search(root->right, levelToMaxValue, row + 1);
+        else{
+            ans[row] = max(root->val, ans[row]);
+        }
+        search(root->left, ans, row + 1);
+        search(root->right, ans, row + 1);
     }
 };
