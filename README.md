@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0040-combination-sum-ii](https://github.com/hleesa/leetcode/tree/master/0040-combination-sum-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/hleesa/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0179-largest-number](https://github.com/hleesa/leetcode/tree/master/0179-largest-number) |
+| [0494-target-sum](https://github.com/hleesa/leetcode/tree/master/0494-target-sum) |
 | [0539-minimum-time-difference](https://github.com/hleesa/leetcode/tree/master/0539-minimum-time-difference) |
 | [0624-maximum-distance-in-arrays](https://github.com/hleesa/leetcode/tree/master/0624-maximum-distance-in-arrays) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/hleesa/leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -190,6 +191,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/hleesa/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0241-different-ways-to-add-parentheses](https://github.com/hleesa/leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/hleesa/leetcode/tree/master/0264-ugly-number-ii) |
+| [0494-target-sum](https://github.com/hleesa/leetcode/tree/master/0494-target-sum) |
 | [0650-2-keys-keyboard](https://github.com/hleesa/leetcode/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/hleesa/leetcode/tree/master/0664-strange-printer) |
 | [1196-filling-bookcase-shelves](https://github.com/hleesa/leetcode/tree/master/1196-filling-bookcase-shelves) |
@@ -558,6 +560,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0040-combination-sum-ii](https://github.com/hleesa/leetcode/tree/master/0040-combination-sum-ii) |
+| [0494-target-sum](https://github.com/hleesa/leetcode/tree/master/0494-target-sum) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/hleesa/leetcode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/hleesa/leetcode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Prefix Sum
