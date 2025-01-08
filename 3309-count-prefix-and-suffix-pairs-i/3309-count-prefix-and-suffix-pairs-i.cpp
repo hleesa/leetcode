@@ -13,9 +13,6 @@ public:
     }
 
     bool isPrefixAndSuffix(string str1, string str2){
-        const int len1 = str1.length();
-        const int len2 = str2.length();
-        if(len1 > len2) return false;
-        return str2.compare(0, len1, str1) == 0 && str2.compare(len2-len1, len1, str1) == 0;
+        return str2.find(str1) == 0 && str2.rfind(str1) == str2.length() - str1.length();
     }
 };
