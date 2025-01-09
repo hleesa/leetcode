@@ -39,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0780-max-chunks-to-make-sorted](https://github.com/hleesa/leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0787-sliding-puzzle](https://github.com/hleesa/leetcode/tree/master/0787-sliding-puzzle) |
 | [0792-binary-search](https://github.com/hleesa/leetcode/tree/master/0792-binary-search) |
+| [0817-design-hashmap](https://github.com/hleesa/leetcode/tree/master/0817-design-hashmap) |
 | [0859-design-circular-deque](https://github.com/hleesa/leetcode/tree/master/0859-design-circular-deque) |
 | [0870-magic-squares-in-grid](https://github.com/hleesa/leetcode/tree/master/0870-magic-squares-in-grid) |
 | [0890-lemonade-change](https://github.com/hleesa/leetcode/tree/master/0890-lemonade-change) |
@@ -140,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0432-all-oone-data-structure](https://github.com/hleesa/leetcode/tree/master/0432-all-oone-data-structure) |
 | [0567-permutation-in-string](https://github.com/hleesa/leetcode/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/hleesa/leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0817-design-hashmap](https://github.com/hleesa/leetcode/tree/master/0817-design-hashmap) |
 | [0870-magic-squares-in-grid](https://github.com/hleesa/leetcode/tree/master/0870-magic-squares-in-grid) |
 | [0906-walking-robot-simulation](https://github.com/hleesa/leetcode/tree/master/0906-walking-robot-simulation) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/hleesa/leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
@@ -538,6 +540,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0729-my-calendar-i](https://github.com/hleesa/leetcode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/hleesa/leetcode/tree/master/0731-my-calendar-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/hleesa/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0817-design-hashmap](https://github.com/hleesa/leetcode/tree/master/0817-design-hashmap) |
 | [0859-design-circular-deque](https://github.com/hleesa/leetcode/tree/master/0859-design-circular-deque) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/hleesa/leetcode/tree/master/1497-design-a-stack-with-increment-operation) |
 ## Binary Search Tree
@@ -657,6 +660,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0432-all-oone-data-structure](https://github.com/hleesa/leetcode/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/hleesa/leetcode/tree/master/0725-split-linked-list-in-parts) |
+| [0817-design-hashmap](https://github.com/hleesa/leetcode/tree/master/0817-design-hashmap) |
 | [0859-design-circular-deque](https://github.com/hleesa/leetcode/tree/master/0859-design-circular-deque) |
 | [1484-linked-list-in-binary-tree](https://github.com/hleesa/leetcode/tree/master/1484-linked-list-in-binary-tree) |
 | [2411-spiral-matrix-iv](https://github.com/hleesa/leetcode/tree/master/2411-spiral-matrix-iv) |
@@ -693,6 +697,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/hleesa/leetcode/tree/master/0214-shortest-palindrome) |
+| [0817-design-hashmap](https://github.com/hleesa/leetcode/tree/master/0817-design-hashmap) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/hleesa/leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Trie
 |  |
