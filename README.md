@@ -29,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/hleesa/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0494-target-sum](https://github.com/hleesa/leetcode/tree/master/0494-target-sum) |
 | [0539-minimum-time-difference](https://github.com/hleesa/leetcode/tree/master/0539-minimum-time-difference) |
+| [0621-task-scheduler](https://github.com/hleesa/leetcode/tree/master/0621-task-scheduler) |
 | [0624-maximum-distance-in-arrays](https://github.com/hleesa/leetcode/tree/master/0624-maximum-distance-in-arrays) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/hleesa/leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/hleesa/leetcode/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
@@ -140,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/hleesa/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0432-all-oone-data-structure](https://github.com/hleesa/leetcode/tree/master/0432-all-oone-data-structure) |
 | [0567-permutation-in-string](https://github.com/hleesa/leetcode/tree/master/0567-permutation-in-string) |
+| [0621-task-scheduler](https://github.com/hleesa/leetcode/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/hleesa/leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0817-design-hashmap](https://github.com/hleesa/leetcode/tree/master/0817-design-hashmap) |
 | [0870-magic-squares-in-grid](https://github.com/hleesa/leetcode/tree/master/0870-magic-squares-in-grid) |
@@ -181,6 +183,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/hleesa/leetcode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/hleesa/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0539-minimum-time-difference](https://github.com/hleesa/leetcode/tree/master/0539-minimum-time-difference) |
+| [0621-task-scheduler](https://github.com/hleesa/leetcode/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/hleesa/leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/hleesa/leetcode/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0780-max-chunks-to-make-sorted](https://github.com/hleesa/leetcode/tree/master/0780-max-chunks-to-make-sorted) |
@@ -368,6 +371,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/hleesa/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/hleesa/leetcode/tree/master/0621-task-scheduler) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/hleesa/leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/hleesa/leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/hleesa/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -381,6 +385,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0179-largest-number](https://github.com/hleesa/leetcode/tree/master/0179-largest-number) |
+| [0621-task-scheduler](https://github.com/hleesa/leetcode/tree/master/0621-task-scheduler) |
 | [0624-maximum-distance-in-arrays](https://github.com/hleesa/leetcode/tree/master/0624-maximum-distance-in-arrays) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/hleesa/leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0670-maximum-swap](https://github.com/hleesa/leetcode/tree/master/0670-maximum-swap) |
@@ -553,6 +558,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0264-ugly-number-ii](https://github.com/hleesa/leetcode/tree/master/0264-ugly-number-ii) |
 | [0347-top-k-frequent-elements](https://github.com/hleesa/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/hleesa/leetcode/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/hleesa/leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/hleesa/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/hleesa/leetcode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
