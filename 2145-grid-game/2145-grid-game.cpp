@@ -11,8 +11,8 @@ public:
 
         long long ans = LLONG_MAX;
         for(int x = 0; x < n; ++x){
-            long long secondRobot = max(top[n] - top[x+1], bottom[x]);
-            ans = min(secondRobot, ans);
+            long long second = max(top[n] - top[x+1], bottom[x]);
+            ans = min(second, ans);
         }
 
         return ans;
