@@ -9,7 +9,7 @@ public:
             }
         }
 
-        return vector<int>();
+        return {};
     }
 
 private:
@@ -24,7 +24,7 @@ private:
         int rootX = find(x);
         int rootY = find(y);
         if(rootX == rootY) return false;
-        
+
         parent[rootY] = rootX;
         return true;
     }
