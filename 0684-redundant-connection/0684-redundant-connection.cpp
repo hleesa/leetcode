@@ -1,39 +1,30 @@
 class Solution {
 private:
-    // Performs DFS and returns true if there's a path between src and target.
-    bool isConnected(int src, int target, vector<bool>& visited,
-                     vector<int> adjList[]) {
-        visited[src] = true;
+    vector<int> parent;
 
-        if (src == target) {
-            return true;
-        }
+    int find(int x) {
+        if (parent[x] == -1) return x;
+        return parent[x] = find(parent[x]);
+    }
 
-        int isFound = false;
-        for (int adj : adjList[src]) {
-            if (!visited[adj]) {
-                isFound = isFound || isConnected(adj, target, visited, adjList);
-            }
-        }
+    bool unite(int x, int y) {
+        int rootX = find(x);
+        int rootY = find(y);
+        if (rootX == rootY) return false;
 
-        return isFound;
+        parent[rootY] = rootX;
+        return true;
     }
 
 public:
     vector<int> findRedundantConnection(vector<vector<int>>& edges) {
         int N = edges.size();
+        parent.assign(N, -1);
 
-        vector<int> adjList[N];
         for (auto edge : edges) {
-            vector<bool> visited(N, false);
-
-            // If DFS returns true, we will return the edge.
-            if (isConnected(edge[0] - 1, edge[1] - 1, visited, adjList)) {
+            if (!unite(edge[0] - 1, edge[1] - 1)) {
                 return edge;
             }
-
-            adjList[edge[0] - 1].push_back(edge[1] - 1);
-            adjList[edge[1] - 1].push_back(edge[0] - 1);
         }
 
         return {};
