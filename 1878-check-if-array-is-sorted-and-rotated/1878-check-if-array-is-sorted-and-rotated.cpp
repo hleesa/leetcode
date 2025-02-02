@@ -1,15 +1,16 @@
 class Solution {
 public:
     bool check(vector<int>& nums) {
-        deque<int> num(nums.begin(), nums.end());
-        deque<int> sorted = num;
-        sort(sorted.begin(), sorted.end());
-        for(int i = 0; i < num.size(); ++i){
-            if(num == sorted){
-                return true;
+        const int n = nums.size();
+        for(int i = 0; i < n; ++i){
+            bool asc = true;
+            for(int j = 0; j + 1< n; ++j){
+                if (nums[(i+j+1)%n] < nums[(i+j)%n]){
+                    asc = false;
+                    break;
+                }
             }
-            num.push_back(num.front());
-            num.pop_front();
+            if(asc) return true;
         }
         return false;
     }
