@@ -12,30 +12,10 @@ public:
                 ans -= sum(it.second - 1);
             }
         }
-
         return ans;
     }
-    
+
     long long sum(long long n){
         return (n * (n + 1)) / 2;
     }
 };
-
-/*
-
-3 2 1
-
-6
-1
-
-
-4 3 2 1
-
-10
-
-4 3 2 1
-
-
-
-
-*/
