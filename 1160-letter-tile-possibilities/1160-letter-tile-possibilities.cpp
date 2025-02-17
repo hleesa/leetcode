@@ -1,27 +1,23 @@
 class Solution {
 public:
     int numTilePossibilities(string tiles) {
-        map<int,int> tileNum;
+        vector<int> freq(26, 0);
         for(char ch : tiles){
-            tileNum[ch]++;
+            freq[ch-'A']++;
         }
-        map<int,int> visited;
-        set<string> counter;
-        numHelper(tileNum, visited, counter, "", tiles.length());
-
-        return counter.size() - 1;
+        return numTileHelper(freq);
     }
 
-    void numHelper(const map<int,int>& tileNum, map<int,int>& visited, set<string>& counter, string cur, const int len){
-        if (cur.length() > len) return;
-        counter.insert(cur);
-        for(auto [ch, num] : tileNum){
-            if (visited[ch] >= num) continue;
-            cur += ch;
-            visited[ch]++;
-            numHelper(tileNum, visited, counter, cur, len);
-            visited[ch]--;
-            cur.pop_back();
+private:
+    int numTileHelper(vector<int>& freq){
+        int ret = 0;
+        for(int i = 0; i < 26; ++i){
+            if(freq[i] == 0) continue;
+            ++ret;
+            freq[i]--;
+            ret += numTileHelper(freq);
+            freq[i]++;
         }
+        return ret;
     }
 };
