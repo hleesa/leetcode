@@ -1,12 +1,13 @@
 class Solution {
 public:
-    string ans;
     string getHappyString(int n, int k) {
+        string ans;
         int cur = 0;
-        getHappyString(n,k,"", cur);
+        backtrack(n, k, "", cur, ans);
         return ans;
     }
-    void getHappyString(int n, int k, string candi, int& cur){
+
+    void backtrack(int n, int k, string candi, int& cur, string& ans){
         if (candi.length() == n){
             ++cur;
             if(cur == k){
@@ -14,19 +15,12 @@ public:
             }
             return;
         }
-        for(int i = 0; i < 3; ++i){
-            if(candi.empty()){
-                candi += 'a' + i;
-                getHappyString(n, k, candi, cur);
-                candi.pop_back();
-            }
-            else{
-                if (candi.back() == 'a' + i) continue;
-                candi += 'a' + i;
-                getHappyString(n, k, candi, cur);
-                candi.pop_back();
-            }
+        for(char ch = 'a'; ch <= 'c'; ++ch){
+            if(!candi.empty() && candi.back() == ch) continue;
+            candi += ch;
+            backtrack(n, k, candi, cur, ans);
+            if (!ans.empty()) return;
+            candi.pop_back();
         }
-        return;
     }
 };
