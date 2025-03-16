@@ -21,8 +21,7 @@ public:
         const int n = nums.size();
         vector<int> diffArr(n+1);
         for(int i = 0; i < k; ++i){
-            vector<int> q = queries[i];
-            int l = q[0], r = q[1], v = q[2];
+            int l = queries[i][0], r = queries[i][1], v = queries[i][2];
             diffArr[l] += v;
             diffArr[r+1] -= v;
         }
