@@ -33,11 +33,8 @@ public:
                 }
             }
             int numNode = path.size();
-            if(numNode == 1){
-                ans++;
-            }
-            else {
-                bool complete = true;
+            bool complete = true;
+            if(numNode > 0){
                 while(!path.empty()){
                     int node = path.front(); path.pop();
                     if(degree[node][0] != numNode - 1 || degree[node][1] != numNode - 1){
@@ -45,10 +42,11 @@ public:
                         break;
                     }
                 }
-                if(complete) ++ans;
             }
+            if(complete) ++ans;
             while(!path.empty()) path.pop();
         }
+
         return ans;
     }
 };
