@@ -4,15 +4,15 @@ public:
         const int n = nums.size();
         int ans = 0;
         for(int i = 0; i < n; i += 3){
-            set<int> numSet;
+            vector<bool> num(102);
             bool distinct = true;
             for(int j = i; j < n; ++j){
-                if(numSet.find(nums[j]) != numSet.end()) {
+                if(num[nums[j]]){
                     distinct = false;
                     ++ans;
                     break;
                 }
-                numSet.insert(nums[j]);
+                num[nums[j]] = true;
             }
             if(distinct) break;
         }
