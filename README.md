@@ -955,6 +955,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Linked List
 |  |
 | ------- |
+| [0083-remove-duplicates-from-sorted-list](https://github.com/hleesa/leetcode/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0141-linked-list-cycle](https://github.com/hleesa/leetcode/tree/master/0141-linked-list-cycle) |
 | [0432-all-oone-data-structure](https://github.com/hleesa/leetcode/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/hleesa/leetcode/tree/master/0725-split-linked-list-in-parts) |
