@@ -673,6 +673,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/hleesa/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/hleesa/leetcode/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/hleesa/leetcode/tree/master/0101-symmetric-tree) |
 | [0110-balanced-binary-tree](https://github.com/hleesa/leetcode/tree/master/0110-balanced-binary-tree) |
 | [0145-binary-tree-postorder-traversal](https://github.com/hleesa/leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0226-invert-binary-tree](https://github.com/hleesa/leetcode/tree/master/0226-invert-binary-tree) |
@@ -709,6 +710,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/hleesa/leetcode/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/hleesa/leetcode/tree/master/0101-symmetric-tree) |
 | [0226-invert-binary-tree](https://github.com/hleesa/leetcode/tree/master/0226-invert-binary-tree) |
 | [0407-trapping-rain-water-ii](https://github.com/hleesa/leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/hleesa/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
@@ -765,6 +767,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/hleesa/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/hleesa/leetcode/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/hleesa/leetcode/tree/master/0101-symmetric-tree) |
 | [0110-balanced-binary-tree](https://github.com/hleesa/leetcode/tree/master/0110-balanced-binary-tree) |
 | [0145-binary-tree-postorder-traversal](https://github.com/hleesa/leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0226-invert-binary-tree](https://github.com/hleesa/leetcode/tree/master/0226-invert-binary-tree) |
@@ -840,6 +843,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/hleesa/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/hleesa/leetcode/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/hleesa/leetcode/tree/master/0101-symmetric-tree) |
 | [0110-balanced-binary-tree](https://github.com/hleesa/leetcode/tree/master/0110-balanced-binary-tree) |
 | [0145-binary-tree-postorder-traversal](https://github.com/hleesa/leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0226-invert-binary-tree](https://github.com/hleesa/leetcode/tree/master/0226-invert-binary-tree) |
