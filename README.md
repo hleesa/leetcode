@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0118-pascals-triangle](https://github.com/hleesa/leetcode/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/hleesa/leetcode/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/hleesa/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0136-single-number](https://github.com/hleesa/leetcode/tree/master/0136-single-number) |
 | [0179-largest-number](https://github.com/hleesa/leetcode/tree/master/0179-largest-number) |
 | [0347-top-k-frequent-elements](https://github.com/hleesa/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/hleesa/leetcode/tree/master/0368-largest-divisible-subset) |
@@ -930,6 +931,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/hleesa/leetcode/tree/master/0136-single-number) |
 | [0476-number-complement](https://github.com/hleesa/leetcode/tree/master/0476-number-complement) |
 | [1435-xor-queries-of-a-subarray](https://github.com/hleesa/leetcode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/hleesa/leetcode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
