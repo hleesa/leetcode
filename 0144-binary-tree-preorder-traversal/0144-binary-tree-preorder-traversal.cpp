@@ -12,21 +12,15 @@
 class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
-        if(root == nullptr){
-            return {};
-        }
-
         vector<int> ans;
-        ans.push_back(root->val);
-        if(root->left){
-            vector<int> left = preorderTraversal(root->left);
-            ans.insert(ans.end(), left.begin(), left.end());
-        }
-        if(root->right){
-            vector<int> right = preorderTraversal(root->right);
-            ans.insert(ans.end(), right.begin(), right.end());
-        }
-
+        dfs(root, ans);
         return ans;
+    }
+private:
+    void dfs(TreeNode* root, vector<int>& result){
+        if(root == nullptr) return;
+        result.push_back(root->val);
+        dfs(root->left, result);
+        dfs(root->right, result);
     }
 };
