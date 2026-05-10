@@ -20,7 +20,7 @@ public:
         }
 
         for(int i = 0; i < minLen; ++i){
-            if(headA == nullptr || headA == headB) break;
+            if(headA == headB) break;
             headA = headA->next;
             headB = headB->next;
         }
