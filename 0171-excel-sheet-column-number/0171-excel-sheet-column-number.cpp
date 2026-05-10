@@ -1,12 +1,11 @@
 class Solution {
 public:
     int titleToNumber(string columnTitle) {
-        int result = 0;
-
-        for (char c : columnTitle) {
-            result = result * 26 + (c - 'A' + 1);
+        long long ans = 0;
+        for(auto ch : columnTitle){
+            ans = ans * 26 + ch - 'A' + 1;
         }
-
-        return result;
+        
+        return static_cast<int>(ans);
     }
 };
