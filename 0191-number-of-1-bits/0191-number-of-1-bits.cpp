@@ -2,12 +2,11 @@ class Solution {
 public:
     int hammingWeight(int n) {
         int ans = 0;
-        while(n){
-            if(n & 1){
+        for(int i = 0; i < 32; ++i){
+            int mask = 1 << i;
+            if(mask & n){
                 ++ans;
             }
-            
-            n >>= 1;
         }
 
         return ans;
