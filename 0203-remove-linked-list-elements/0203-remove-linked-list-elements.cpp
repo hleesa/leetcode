@@ -20,7 +20,6 @@ public:
                 ListNode* del = next;
                 cur->next = next->next;
                 delete(del);
-                
             }
             else {
                 cur = cur->next;
