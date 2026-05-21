@@ -624,6 +624,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Recursion
 |  |
 | ------- |
+| [0203-remove-linked-list-elements](https://github.com/hleesa/leetcode/tree/master/0203-remove-linked-list-elements) |
 | [0241-different-ways-to-add-parentheses](https://github.com/hleesa/leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/hleesa/leetcode/tree/master/0273-integer-to-english-words) |
 | [1197-parsing-a-boolean-expression](https://github.com/hleesa/leetcode/tree/master/1197-parsing-a-boolean-expression) |
@@ -1007,6 +1008,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0083-remove-duplicates-from-sorted-list](https://github.com/hleesa/leetcode/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0141-linked-list-cycle](https://github.com/hleesa/leetcode/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/hleesa/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
+| [0203-remove-linked-list-elements](https://github.com/hleesa/leetcode/tree/master/0203-remove-linked-list-elements) |
 | [0432-all-oone-data-structure](https://github.com/hleesa/leetcode/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/hleesa/leetcode/tree/master/0725-split-linked-list-in-parts) |
 | [0817-design-hashmap](https://github.com/hleesa/leetcode/tree/master/0817-design-hashmap) |
