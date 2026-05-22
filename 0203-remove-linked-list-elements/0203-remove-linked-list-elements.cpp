@@ -14,18 +14,19 @@ public:
         ListNode* dummy = new ListNode(-1);
         dummy->next = head;
         ListNode* cur = dummy;
-        while(cur != nullptr) {
-            ListNode* next = cur->next;
-            if(next != nullptr && next->val == val){
-                ListNode* del = next;
-                cur->next = next->next;
+        while(cur != nullptr){
+            if(cur->next != nullptr && cur->next->val == val){
+                ListNode* del = cur->next;
+                cur->next = del->next;
                 delete(del);
             }
-            else {
+            else{
                 cur = cur->next;
             }
         }
 
-        return dummy->next;
+        ListNode* newHead = dummy->next;
+        delete(dummy);
+        return newHead;
     }
 };
