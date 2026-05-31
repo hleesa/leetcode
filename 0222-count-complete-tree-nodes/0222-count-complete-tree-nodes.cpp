@@ -11,34 +11,28 @@
  */
 class Solution {
 public:
-    int getNodes(int n){
-        int num = 2;
-        for(int i = 1; i < n; ++i){
-            num *= 2;
+    int getH(TreeNode* root, bool left){
+        int h = 0;
+        while(root != nullptr){
+            ++h;
+            if(left){
+                root = root->left;
+            }
+            else{
+                root = root->right;
+            }
         }
-
-        return num - 1;
+        
+        return h;
     }
-
     int countNodes(TreeNode* root) {
         if(root == nullptr) return 0;
 
-        int lh = 1;
-        TreeNode* lc = root->left;
-        while(lc != nullptr){
-            ++lh;
-            lc = lc->left;
-        }
-
-        int rh = 1;
-        TreeNode* rc = root->right;
-        while(rc != nullptr){
-            ++rh;
-            rc = rc->right;
-        }
+        int lh = getH(root, true);
+        int rh = getH(root, false);
 
         if(lh == rh){
-            return getNodes(lh);
+            return (1 << lh) - 1;
         }
         else{
             return countNodes(root->left) + countNodes(root->right) + 1;
