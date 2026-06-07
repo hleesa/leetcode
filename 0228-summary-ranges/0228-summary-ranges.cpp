@@ -2,10 +2,10 @@ class Solution {
 public:
     vector<string> summaryRanges(vector<int>& nums) {
         vector<string> ans;
-        for(size_t i = 0 ; i < nums.size();){
-            long long begin = i;
-            long long end = i + 1;
-            while(end < nums.size() && nums[end] - end == nums[begin] - begin){
+        for(int i = 0 ; i < nums.size();){
+            size_t begin = i;
+            size_t end = i + 1;
+            while(end < nums.size() && nums[end] == nums[end-1] + 1){
                 ++end;
             }
 
