@@ -3,23 +3,24 @@ public:
     vector<string> summaryRanges(vector<int>& nums) {
         vector<string> ans;
         for(size_t i = 0 ; i < nums.size();){
-            long long off = 1;
-            while(i + off < nums.size() && nums[i+off] - off == nums[i]){
-                ++off;
+            long long begin = i;
+            long long end = i + 1;
+            while(end < nums.size() && (long long)nums[end] - nums[begin] == end - begin){
+                ++end;
             }
 
-            string range;
-            if(off == 1){
-                range = to_string(nums[i]);
+            string an;
+            if(begin + 1 == end){
+                an = to_string(nums[begin]);
             }
             else{
-                range = to_string(nums[i]) + "->" + to_string(nums[i+off-1]);
+                an = to_string(nums[begin]) + "->" + to_string(nums[end-1]);
             }
 
-            ans.push_back(range);
-            i += off;
+            ans.push_back(an);
+            i = end;
         }
-        
+
         return ans;
     }
 };
