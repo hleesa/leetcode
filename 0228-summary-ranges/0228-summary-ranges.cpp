@@ -4,7 +4,7 @@ public:
         vector<string> ans;
         for(size_t i = 0 ; i < nums.size();){
             long long off = 1;
-            while(i + off < nums.size() && ((long long)nums[i+off] - (long long)nums[i]) == off){
+            while(i + off < nums.size() && nums[i+off] - off == nums[i]){
                 ++off;
             }
 
