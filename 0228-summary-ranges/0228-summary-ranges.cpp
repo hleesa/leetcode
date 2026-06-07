@@ -5,7 +5,7 @@ public:
         for(size_t i = 0 ; i < nums.size();){
             long long begin = i;
             long long end = i + 1;
-            while(end < nums.size() && (long long)nums[end] - nums[begin] == end - begin){
+            while(end < nums.size() && nums[end] - end == nums[begin] - begin){
                 ++end;
             }
 
